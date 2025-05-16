@@ -1,0 +1,5 @@
+from pathlib import Path
+
+def get_project_root() -> Path:
+    """Returns the ROOT directory"""
+    return Path(__file__).resolve().parents[2]
